@@ -10,12 +10,10 @@ If you are using **release** build of RADDI do following:
 4. Copy all .dll files into directory with your raddi executables
 5. Done
 
-Packages required to install (exe), and libraries (dll) required to be copied into directory RADDI installation
-
 ## NOTE
 
 This all will be automatically handled by installer in the future.
 
-## Requirements
+## OS Version Requirements
 
-Windows Vista or later. On Windows XP use **portable** build.
+DLLs here have required subsystem version number patched to support Windows XP. Normally compiled liblzma.dll and libsodium.dll require Windows Vista.
