@@ -14,10 +14,11 @@ If you are using **release** build of RADDI do following:
 
 This all will be automatically handled by installer in the future.
 
-## ARM-64 NOTE
-
-There is no arm-64/sqlite3.dll. AArch64 build uses **winsqlite3.dll** (bundled with Windows 10) instead of redistributable sqlite3.dll. This means that, unlike other builds which will run on Windows XP, AArch64 build requires Windows 10 (1507/LTSB 2015) ...which is fine, because there was no earlier public build of Windows for ARM-64 anyway.
-
 ## OS Version Requirements
 
 DLLs here have required subsystem version number patched to support Windows XP. Normally compiled liblzma.dll and libsodium.dll require Windows Vista.
+
+## ARM-64 NOTE
+
+There is no arm-64/sqlite3.dll. *Release* AArch64 build uses **winsqlite3.dll** (bundled with Windows 10) instead of redistributable sqlite3.dll. This means that, unlike other builds which will run on Windows XP, AArch64 build requires Windows 10 (1507 or LTSB 2015) ...which is fine, because there was no earlier public build of Windows for ARM-64 anyway.
+
