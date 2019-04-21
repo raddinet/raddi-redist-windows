@@ -14,9 +14,13 @@ If you are using **release** build of RADDI do following:
 
 This all will be automatically handled by installer in the future.
 
-## OS Version Requirements
+## Differences from official builds
 
-DLLs here have required subsystem version number patched to support Windows XP. Normally compiled liblzma.dll and libsodium.dll require Windows Vista.
+liblzma.dll and libsodium.dll available here contain following few small patches:
+
+* **Windows XP support** - OS/subsystem version number is patched to support Windows XP for x86-32 and x86-64; regular builds of liblzma.dll and libsodium.dll require Windows Vista
+* **CFG** - compiled with Control Flow Guard (security hardening) enabled
+* **/PDBSTRIPPED** - unnecessary debug information removed for slightly smaller binary footprint 
 
 ## ARM-64 NOTE
 
