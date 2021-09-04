@@ -5,10 +5,17 @@ If you are using **portable** build of RADDI you can ignore this repository. All
 If you are using **release** build of RADDI do following:
 
 1. Determine appropriate platform of the raddi binaries you've downloaded or compiled
-2. Download everything from that directory in this repository
-3. Install msvc_redist_xxx.exe
-4. Copy all .dll files into directory with your raddi executables
+2. Download all .DLL files from that directory in this repository
+3. Copy all .DLL files into directory with your raddi executables
+4. Install msvc_redist_##.##.####.exe (ideally latest, but see below)
 5. Done
+
+## Windows XP – IMPORTANT
+
+When installing or updating MSVC runtime on Windows XP, use version **14.28** or earlier.
+Installing 14.29 is known to break Visual Studio compiled applications, see following topic:
+
+https://developercommunity.visualstudio.com/t/xp-compatibility-broken-in-visual-c-runtime-2015-2/1406575
 
 ## NOTE
 
