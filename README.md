@@ -12,8 +12,8 @@ If you are using **release** build of RADDI do following:
 
 ## Windows XP – IMPORTANT
 
-When installing or updating MSVC runtime on Windows XP, use version **14.28** or earlier.
-Installing 14.29 is known to break Visual Studio compiled applications, see following topic:
+When installing or updating MSVC runtime on Windows XP, use version **14.27** or earlier.
+Installing 14.28 is known to break Visual Studio compiled applications, see following topic:
 
 https://developercommunity.visualstudio.com/t/xp-compatibility-broken-in-visual-c-runtime-2015-2/1406575
 
